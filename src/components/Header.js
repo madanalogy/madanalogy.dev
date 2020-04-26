@@ -12,9 +12,10 @@ const Header = props => (
         <p>
           Ex Digital Forensics Examiner, DevOps Engineer, and Web Developer.
           <br/>
-          Undergraduate in <b>Computer Science</b> at the National University of Singapore.
+          Computer Science Undergraduate at the National University of Singapore.
           <br/>
-          <b><u>**SITE IN DEVELOPMENT**</u></b>
+          <br/>
+          <b>SITE IN DEVELOPMENT</b>. Resume available <a href={"https://drive.google.com/file/d/1c8xXFCdk6XDKWq450z9nP2vvYCcup_St/view?usp=sharing"} target="_blank">here</a>
         </p>
       </div>
     </div>

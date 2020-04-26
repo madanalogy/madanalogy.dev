@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ahmed Bahajjaj',
     author: 'madanalogy',
-    description: 'Landing Page for Ahmed a.k.a. madanalogy',
+    description: 'Curriculum Vitae for Ahmed a.k.a. madanalogy',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
