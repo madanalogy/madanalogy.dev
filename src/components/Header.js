@@ -8,13 +8,13 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Ahmed Bahajjaj</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Ex Digital Forensics Examiner, DevOps Engineer, and Web Developer.
+          <br/>
+          Undergraduate in <b>Computer Science</b> at the National University of Singapore.
+          <br/>
+          <b><u>**SITE IN DEVELOPMENT**</u></b>
         </p>
       </div>
     </div>
