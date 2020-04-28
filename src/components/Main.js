@@ -31,7 +31,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            I've had a rough ride so far but here I am still kicking. I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. Currently learning more about cybersecurity, machine learning, and software engineering.
+            I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. Currently learning more about cybersecurity, machine learning, and software engineering.
           </p>
           {close}
         </article>
