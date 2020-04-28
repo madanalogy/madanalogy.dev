@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -33,53 +31,30 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            I've had a rough ride so far but here I am still kicking. I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. Currently learning more about cybersecurity, machine learning, and software engineering.
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <h2 className="major">Projects</h2>
+          <h3><a href={"https://github.com/TEAMMATES/teammates"} target="_blank" rel="noopener noreferrer">TEAMMATES</a></h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Collaborator for an award winning peer review feedback system utilised by students and educators all over the globe. Primarily involved in testing and security.
           </p>
+          <h3><a href={"https://zaproxy.org"} target="_blank" rel="noopener noreferrer">OWASP Zed Attack Proxy</a></h3>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Contributor to the world’s most popular open source web security tool used actively by penetration testers and security specialists worldwide.
+          </p>
+          <h3>CCRT Case Management System</h3>
+          <p>
+            Lead developer and project manager for the Cybercrime Response Team Case Management System deployed to all six land divisions of the Singapore Police Force.
           </p>
           {close}
         </article>
@@ -92,17 +67,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Experience</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <h3>National University of Singapore</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Bachelor's in Computing with Honours, Computer Science. Enrolled in the University Scholars Programme. Employed as a Teaching Assistant in the School of Computing and as a Residential Assistant in Cinnamon College.
+          </p>
+          <h3>Singapore Police Force</h3>
+          <p>
+            Employed by the Criminal Investigation Department of the SPF under the Technology Crime Division as a digital forensics specialist. I doubled up as a devOps engineer and web developer due to my abilities in programming, which meant that I ended up leading various tech projects for both my home department as well as the then newly established Cybercrime Command.
           </p>
           {close}
         </article>
@@ -167,7 +138,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="mailto:ahmed@madanalogy.dev"
-                className="icon fa-at"
+                className="icon fa-envelope"
               >
                 <span className="label">GitHub</span>
               </a>

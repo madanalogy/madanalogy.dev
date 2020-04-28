@@ -10,12 +10,11 @@ const Header = props => (
       <div className="inner">
         <h1>Ahmed Bahajjaj</h1>
         <p>
-          Ex Digital Forensics Specialist, DevOps Engineer, and Web Developer.&nbsp;
+          Ex Digital Forensics Specialist and Web Developer at the Singapore Police Force.&nbsp;
           <br/>
           Computer Science Undergraduate at the National University of Singapore.&nbsp;
           <br/>
-          <br/>
-          <b>SITE IN DEVELOPMENT</b>. Resume available <a href={"https://drive.google.com/file/d/1c8xXFCdk6XDKWq450z9nP2vvYCcup_St/view?usp=sharing"} target="_blank" rel="noopener noreferrer">here</a>.
+          Resume available <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">here</a>.
         </p>
       </div>
     </div>
@@ -33,7 +32,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('projects')
             }}
           >
             What
