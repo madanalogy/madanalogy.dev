@@ -14,7 +14,7 @@ const Header = props => (
           <br/>
           Computer Science Undergraduate at the National University of Singapore.&nbsp;
           <br/>
-          Resume available <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">here</a>.
+          <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">Click here for resume.</a>
         </p>
       </div>
     </div>
