@@ -108,16 +108,6 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a
-                href="https://twitter.com/madanalogy"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
               <a href="https://facebook.com/madanalogy"
                  target="_blank" rel="noopener noreferrer" className="icon fa-facebook">
                 <span className="label">Facebook</span>
