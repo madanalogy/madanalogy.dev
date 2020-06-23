@@ -28,7 +28,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About Me</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="" width={100} />
           </span>
           <p>
             I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. Currently learning more about cybersecurity, machine learning, and software engineering.
@@ -44,9 +44,12 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
+          {
+            // TODO: Expand on TEAMMATES
+          }
           <h3><a href={"https://github.com/TEAMMATES/teammates"} target="_blank" rel="noopener noreferrer">TEAMMATES</a></h3>
           <p>
-            Collaborator for an award winning peer review feedback system utilised by students and educators all over the globe. Primarily involved in testing and security.
+            Collaborator for an award winning peer review feedback system utilised by students and educators all over the globe. Lead manager for testing and security.
           </p>
           <h3><a href={"https://zaproxy.org"} target="_blank" rel="noopener noreferrer">OWASP Zed Attack Proxy</a></h3>
           <p>
@@ -67,13 +70,16 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Experience</h2>
+          {
+            // TODO: Add HTX ForensiCloud
+          }
           <h3>National University of Singapore</h3>
           <p>
             Bachelor's in Computing with Honours, Computer Science. Enrolled in the University Scholars Programme. Employed as a Teaching Assistant in the School of Computing and as a Residential Assistant in Cinnamon College.
           </p>
           <h3>Singapore Police Force</h3>
           <p>
-            Employed by the Criminal Investigation Department of the SPF under the Technology Crime Division as a digital forensics specialist. I doubled up as a devOps engineer and web developer due to my abilities in programming, which meant that I ended up leading various tech projects for both my home department as well as the then newly established Cybercrime Command.
+            I was employed by the Criminal Investigation Department of the SPF under the Technology Crime Division as a digital forensics engineer. I doubled up as a devOps engineer and web developer due to my abilities in programming and server/network administration, which meant that I ended up leading various tech projects for both my home department as well as the then newly established Cybercrime Command.
           </p>
           {close}
         </article>

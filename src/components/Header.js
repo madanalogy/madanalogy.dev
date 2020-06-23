@@ -10,11 +10,11 @@ const Header = props => (
       <div className="inner">
         <h1>Ahmed Bahajjaj</h1>
         <p>
-          Ex Digital Forensics Specialist and Web Developer at the Singapore Police Force.&nbsp;
+          Penultimate Computer Science Undergraduate at the National University of Singapore.&nbsp;
           <br/>
-          Computer Science Undergraduate at the National University of Singapore.&nbsp;
+          Ex Digital Forensics Engineer, Web Developer, and DevOps Engineer for the Ministry of Home Affairs, Singapore.&nbsp;
           <br/>
-          <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">Click here for resume.</a>
+          <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">Resume available here.</a>
         </p>
       </div>
     </div>
