@@ -31,7 +31,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" width={100} />
           </span>
           <p>
-            I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. Currently learning more about cybersecurity, machine learning, and software engineering.
+            I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. I'm dedicated towards lifelong learning, constantly striving to upgrade myself especially in my fields of interest: Cybersecurity, Machine Learning, and Software Engineering.
           </p>
           {close}
         </article>
@@ -44,42 +44,60 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          {
-            // TODO: Expand on TEAMMATES
-          }
-          <h3><a href={"https://github.com/TEAMMATES/teammates"} target="_blank" rel="noopener noreferrer">TEAMMATES</a></h3>
+          <h3>
+            <a href={"https://teammatesv4.appspot.com"} target="_blank" rel="noopener noreferrer">TEAMMATES</a>&nbsp;
+            <a
+              href="https://github.com/TEAMMATES/teammates"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon fa-github"
+            >
+              <span className="label">TEAMMATES GitHub</span>
+            </a>
+          </h3>
           <p>
-            Collaborator for an award winning peer review feedback system utilised by students and educators all over the globe. Lead manager for testing and security.
+            Core developer and security lead for an award winning peer review feedback portal utilised by half a million students and educators all over the globe. Major contributions include API endpoint security as well as data privacy management.
           </p>
-          <h3><a href={"https://zaproxy.org"} target="_blank" rel="noopener noreferrer">OWASP Zed Attack Proxy</a></h3>
+          <h3>
+            <a href={"https://zaproxy.org"} target="_blank" rel="noopener noreferrer">OWASP Zed Attack Proxy</a>&nbsp;
+            <a
+              href="https://github.com/TEAMMATES/teammates"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon fa-github"
+            >
+              <span className="label">ZAP GitHub</span>
+            </a>
+          </h3>
           <p>
             Contributor to the world’s most popular open source web security tool used actively by penetration testers and security specialists worldwide.
           </p>
           <h3>CCRT Case Management System</h3>
           <p>
-            Lead developer and project manager for the Cybercrime Response Team Case Management System deployed to all six land divisions of the Singapore Police Force.
+            Lead developer, project manager, and operations engineer for the Cybercrime Response Team Case Management System deployed to all six land divisions of the Singapore Police Force during the launch of the Cybercrime Command.
           </p>
           {close}
         </article>
 
         <article
-          id="exp"
-          className={`${this.props.article === 'exp' ? 'active' : ''} ${
+          id="experience"
+          className={`${this.props.article === 'experience' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Experience</h2>
-          {
-            // TODO: Add HTX ForensiCloud
-          }
           <h3>National University of Singapore</h3>
           <p>
-            Bachelor's in Computing with Honours, Computer Science. Enrolled in the University Scholars Programme. Employed as a Teaching Assistant in the School of Computing and as a Residential Assistant in Cinnamon College.
+            Bachelor's in Computing with Honours in <b>Computer Science</b>. Enrolled in the University Scholars Programme. Employed as a Teaching Assistant in the School of Computing and as a Residential Assistant in Cinnamon College.
+          </p>
+          <h3>HTX (Home Team Science & Technology Agency)</h3>
+          <p>
+            I worked for HTX in the summer of 2020 as a digital forensics engineer where I was tasked to come up with solutions for common problems in digital forensics. I leveraged on cloud computing to aid in data preservation tasks, developing ForensiCloud: a web platform for digital forensic specialists to automate retrieval of data from online sources. See it live: <a href="https://forensicloud.web.app">https://forensicloud.web.app</a>
           </p>
           <h3>Singapore Police Force</h3>
           <p>
-            I was employed by the Criminal Investigation Department of the SPF under the Technology Crime Division as a digital forensics engineer. I doubled up as a devOps engineer and web developer due to my abilities in programming and server/network administration, which meant that I ended up leading various tech projects for both my home department as well as the then newly established Cybercrime Command.
+            I was employed by the Criminal Investigation Department of the SPF under the Technology Crime Division as a digital forensics specialist. I doubled up as a devOps engineer and web developer due to my abilities in programming and server/network administration, which meant that I ended up leading various tech projects for both my home department as well as the then newly established Cybercrime Command.
           </p>
           {close}
         </article>
@@ -136,7 +154,7 @@ class Main extends React.Component {
                 href="mailto:ahmed@madanalogy.dev"
                 className="icon fa-envelope"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Email</span>
               </a>
             </li>
           </ul>

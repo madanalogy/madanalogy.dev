@@ -12,7 +12,7 @@ const Header = props => (
         <p>
           Penultimate Computer Science Undergraduate at the National University of Singapore.&nbsp;
           <br/>
-          Ex Digital Forensics Engineer, Web Developer, and DevOps Engineer for the Ministry of Home Affairs, Singapore.&nbsp;
+          OSS Developer and Cybersecurity Enthusiast. Ex Digital Forensics Specialist and DevOps Engineer.&nbsp;
           <br/>
           <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">Resume available here.</a>
         </p>
@@ -41,7 +41,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('exp')
+              props.onOpenArticle('experience')
             }}
           >
             When
