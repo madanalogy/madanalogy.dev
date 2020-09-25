@@ -45,9 +45,9 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <h3>
-            <a href={"https://teammatesv4.appspot.com"} target="_blank" rel="noopener noreferrer">TEAMMATES</a>&nbsp;
+            <a href={"https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3Amadanalogy"} target="_blank" rel="noopener noreferrer">TEAMMATES</a>&nbsp;
             <a
-              href="https://github.com/TEAMMATES/teammates"
+              href="https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3Amadanalogy"
               target="_blank"
               rel="noopener noreferrer"
               className="icon fa-github"
@@ -59,9 +59,9 @@ class Main extends React.Component {
             Core developer and security lead for an award winning peer review feedback portal utilised by half a million students and educators all over the globe. Major contributions include API endpoint security as well as data privacy management.
           </p>
           <h3>
-            <a href={"https://zaproxy.org"} target="_blank" rel="noopener noreferrer">OWASP Zed Attack Proxy</a>&nbsp;
+            <a href={"https://github.com/search?q=org%3Azaproxy+is%3APR+author%3Amadanalogy"} target="_blank" rel="noopener noreferrer">OWASP Zed Attack Proxy</a>&nbsp;
             <a
-              href="https://github.com/TEAMMATES/teammates"
+              href="https://github.com/search?q=org%3Azaproxy+is%3APR+author%3Amadanalogy"
               target="_blank"
               rel="noopener noreferrer"
               className="icon fa-github"
