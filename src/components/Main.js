@@ -43,7 +43,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">Open Source Projects</h2>
           <h3>
             <a href={"https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3Amadanalogy"} target="_blank" rel="noopener noreferrer">TEAMMATES</a>&nbsp;
             <a
@@ -72,10 +72,6 @@ class Main extends React.Component {
           <p>
             Contributor to the world’s most popular open source web security tool used actively by penetration testers and security specialists worldwide.
           </p>
-          <h3>CCRT Case Management System</h3>
-          <p>
-            Lead developer, project manager, and operations engineer for the Cybercrime Response Team Case Management System deployed to all six land divisions of the Singapore Police Force during the launch of the Cybercrime Command.
-          </p>
           {close}
         </article>
 
@@ -87,17 +83,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Experience</h2>
-          <h3>National University of Singapore</h3>
+          <h3>Open Government Products (OGP), GovTech Singapore</h3>
           <p>
-            Bachelor's in Computing with Honours in <b>Computer Science</b>. Enrolled in the University Scholars Programme. Employed as a Teaching Assistant in the School of Computing and as a Residential Assistant in Cinnamon College.
+            I spent the summer and fall of 2021 as a software engineer intern with OGP where I got the opportunity to work on active products being used by Singapore citizens. I spent the first half of my internship working on PaySG, leveraging on Stripe and React + Express to build it into a production ready state. I was the engineer tasked with implementing user services such as authentication and access control. The second half was spent with RedeemSG, where I launched a signup portal to be used by a million households in Singapore. I also had the opportunity to learn mobile app development with React Native.
           </p>
-          <h3>HTX (Home Team Science & Technology Agency)</h3>
+          <h3>Home Team Science & Technology Agency (HTX)</h3>
           <p>
-            I worked for HTX in the summer of 2020 as a digital forensics engineer where I was tasked to come up with solutions for common problems in digital forensics. I leveraged on cloud computing to aid in data preservation tasks, developing ForensiCloud: a web platform for digital forensic specialists to automate retrieval of data from online sources. See it live: <a href="https://forensicloud.web.app">https://forensicloud.web.app</a>
-          </p>
-          <h3>Singapore Police Force</h3>
-          <p>
-            I was employed by the Criminal Investigation Department of the SPF under the Technology Crime Division as a digital forensics specialist. I doubled up as a devOps engineer and web developer due to my abilities in programming and server/network administration, which meant that I ended up leading various tech projects for both my home department as well as the then newly established Cybercrime Command.
+            I worked for HTX in the summer of 2020 as a digital forensics / cloud engineer where I was tasked to come up with solutions for common problems in digital forensics. I leveraged on cloud computing to aid in data preservation tasks, developing ForensiCloud: a web platform for digital forensic specialists to automate retrieval of data from online sources. See it live: <a href="https://forensicloud.web.app">https://forensicloud.web.app</a>
           </p>
           {close}
         </article>
@@ -129,18 +121,6 @@ class Main extends React.Component {
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://facebook.com/madanalogy"
-                 target="_blank" rel="noopener noreferrer" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/madanalogy"
-                 target="_blank" rel="noopener noreferrer" className="icon fa-instagram">
-                <span className="label">Instagram</span>
               </a>
             </li>
             <li>
