@@ -10,9 +10,9 @@ const Header = props => (
       <div className="inner">
         <h1>Ahmed Bahajjaj</h1>
         <p>
-          Penultimate Computer Science Undergraduate at the National University of Singapore.&nbsp;
+          Graduating Computer Science Major from the National University of Singapore.&nbsp;
           <br/>
-          OSS Developer and Cybersecurity Enthusiast. Ex Digital Forensics Specialist and DevOps Engineer.&nbsp;
+          Cybersecurity enthusiast aspiring to be a Software Engineer. Experienced with Data Analytics and Cloud Engineering.&nbsp;
           <br/>
           <a href={"http://bit.ly/Ahmed-Resume"} target="_blank" rel="noopener noreferrer">Resume available here.</a>
         </p>
