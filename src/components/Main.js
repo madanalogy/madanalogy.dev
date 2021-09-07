@@ -43,7 +43,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Open Source Projects</h2>
+          <h2 className="major">Open Source</h2>
           <h3>
             <a href={"https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3Amadanalogy"} target="_blank" rel="noopener noreferrer">TEAMMATES</a>&nbsp;
             <a
