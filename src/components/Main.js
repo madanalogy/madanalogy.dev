@@ -31,7 +31,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" width={100} />
           </span>
           <p>
-            I'm an exceptional communicator and problem solver experienced with the uncertainty of life, passionate about meaningful endeavours that bring real impact to people. I'm dedicated towards lifelong learning, constantly striving to upgrade myself especially in my fields of interest: Cybersecurity, Machine Learning, and Software Engineering.
+            I'm an exceptional communicator and problem solver experienced with the uncertainty of life. I'm dedicated towards lifelong learning, constantly striving to grow as both an Engineer and a human being.
           </p>
           {close}
         </article>
@@ -85,11 +85,11 @@ class Main extends React.Component {
           <h2 className="major">Experience</h2>
           <h3>Open Government Products (OGP), GovTech Singapore</h3>
           <p>
-            I spent the summer and fall of 2021 as a software engineer intern with OGP where I got the opportunity to work on active products being used by Singapore citizens. I spent the first half of my internship working on PaySG, leveraging on Stripe and React + Express to build it into a production ready state. I was the engineer tasked with implementing user services such as authentication and access control. The second half was spent with RedeemSG, where I launched a signup portal to be used by a million households in Singapore. I also had the opportunity to learn mobile app development with React Native.
+            I spent the summer and fall of 2021 as a software engineer intern with OGP where I got the opportunity to work on active products being used by Singapore citizens. I spent the first half of my internship working on PaySG, leveraging on Stripe, React, and Express, to build a production ready product. I was the engineer tasked with implementing user services such as authentication and access control. The second half was spent with RedeemSG, where I launched a signup portal to be used by a million households in Singapore. I also had the opportunity to learn mobile app development with React Native.
           </p>
           <h3>Home Team Science & Technology Agency (HTX)</h3>
           <p>
-            I worked for HTX in the summer of 2020 as a digital forensics / cloud engineer where I was tasked to come up with solutions for common problems in digital forensics. I leveraged on cloud computing to aid in data preservation tasks, developing ForensiCloud: a web platform for digital forensic specialists to automate retrieval of data from online sources. See it live: <a href="https://forensicloud.web.app">https://forensicloud.web.app</a>
+            I worked for HTX in the summer of 2020 as a cloud engineer where I was tasked to come up with solutions for common problems in digital forensics. I leveraged on cloud computing to aid in data preservation tasks, developing ForensiCloud: a web platform for digital forensic specialists to automate retrieval of data from online sources. See it live: <a href="https://forensicloud.web.app">https://forensicloud.web.app</a>
           </p>
           {close}
         </article>
