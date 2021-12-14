@@ -85,7 +85,10 @@ class Main extends React.Component {
           <h2 className="major">Experience</h2>
           <h3>Open Government Products (OGP), GovTech Singapore</h3>
           <p>
-            I spent the summer and fall of 2021 as a software engineer intern with OGP where I got the opportunity to work on active products being used by Singapore citizens. I spent the first half of my internship working on PaySG, leveraging on Stripe, React, and Express, to build a production ready product. I was the engineer tasked with implementing user services such as authentication and access control. The second half was spent with RedeemSG, where I launched a signup portal to be used by a million households in Singapore. I also had the opportunity to learn mobile app development with React Native.
+            I spent the summer and fall of 2021 as a software engineer intern with OGP where I got the opportunity to work on active products being used by Singapore citizens. I spent the first half of my internship working on <a href="https://pay.gov.sg" target="_blank" rel="noopener noreferrer">PaySG</a>, leveraging on Stripe, React, and Express, to build a production ready product. I was the engineer tasked with implementing user services such as authentication and access control.
+          </p>
+          <p>
+            The second half was spent with <a href="https://redeem.gov.sg" target="_blank" rel="noopener noreferrer">RedeemSG</a>, where I launched a signup portal to be used by a million households in Singapore via integration with Singpass and MyInfo. I also had the opportunity to deep dive into mobile app development with React Native for deployment on both Android and iOS.
           </p>
           <h3>Home Team Science & Technology Agency (HTX)</h3>
           <p>
