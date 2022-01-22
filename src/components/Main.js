@@ -27,11 +27,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Me</h2>
-          <span className="image main">
-            <img src={pic01} alt="" width={100} />
-          </span>
           <p>
-            I'm an exceptional communicator and problem solver experienced with the uncertainty of life. I'm dedicated towards lifelong learning, constantly striving to grow as both an Engineer and a human being.
+            I'm an exceptional communicator and problem solver experienced with the uncertainty of life. I'm dedicated towards lifelong learning, constantly striving to grow as both an engineer and a human being.
+          </p>
+          <p>
+            By day I'm a software engineer and by night I'm a cybersecurity and data enthusiast. Starting a new adventure with Indeed.com come 4 July 2022!
           </p>
           {close}
         </article>
@@ -71,6 +71,20 @@ class Main extends React.Component {
           </h3>
           <p>
             Contributor to the world’s most popular open source web security tool used actively by penetration testers and security specialists worldwide.
+          </p>
+          <h3>
+            <a href={"https://se-education.org/learningresources/contents/testing/security-testing.html"} target="_blank" rel="noopener noreferrer">Security Testing (SE-EDU)</a>&nbsp;
+            <a
+              href="https://github.com/se-edu/learningresources"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon fa-github"
+            >
+              <span className="label">SE-EDU GitHub</span>
+            </a>
+          </h3>
+          <p>
+            Wrote an introduction to security testing publication for the Software Engineering Education (SE-EDU) open source project.
           </p>
           {close}
         </article>
