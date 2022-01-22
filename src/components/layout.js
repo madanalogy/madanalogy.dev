@@ -31,7 +31,7 @@ const Layout = ({ children, location }) => {
         query SiteTitleQuery {
           site {
             siteMetadata {
-              title: Ahmed
+              title
             }
           }
         }
