@@ -4,15 +4,16 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-id-card"/>
+      <span className="icon fa-id-card" />
     </div>
     <div className="content">
       <div className="inner">
         <h1>Ahmed Bahajjaj</h1>
         <p>
           I solve problems by leveraging on technology.&nbsp;
-          <br/>
-          Passionate about meaningful endeavours that bring real impact to people.
+          <br />
+          Passionate about meaningful endeavours that bring real impact to
+          people.
         </p>
       </div>
     </div>
